@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,CAAC;EAEhB,WAAW;;AACT,0BAA4B;EAN9B,SAAU;IAOP,SAAS,EAAE,IAAI;;;AAGhB,yBAAyB;EAV3B,SAAU;IAWJ,SAAS,EAAE,IAAI;;;AAGnB,yBAAyB;EAd3B,SAAU;IAeN,SAAS,EAAE,IAAI",
+"sources": ["../../sass/blocks/subtitle.scss"],
+"names": [],
+"file": "subtitle.css"
+}

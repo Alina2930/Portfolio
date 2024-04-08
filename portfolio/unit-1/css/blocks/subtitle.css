@@ -1,0 +1,23 @@
+.subtitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  /*Tablet */
+}
+@media (max-width: 1199px) {
+  .subtitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 899px) {
+  .subtitle {
+    font-size: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .subtitle {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=subtitle.css.map */

@@ -1,0 +1,81 @@
+.skills-list {
+  font-size: 22px;
+  line-height: 1.3;
+
+  @media (max-width: 1139px) {
+    font-size: 18px;
+  }
+
+  /* Tablet*/
+  @media (max-width: 899px) {
+    font-size: 16px;
+  }
+}
+.skills-list li {
+  margin-bottom: 10px;
+  @media (max-width: 1139px) {
+    margin-bottom: 6px;
+  }
+}
+
+.skills-list li:last-child {
+  margin-bottom: 0;
+}
+
+.skills-connection {
+  @media (max-width: 767px) {
+    width: 271px;
+  }
+}
+
+// .social {
+//   display: flex;
+//   column-gap: 30px;
+//   margin-bottom: 20px;
+
+//    @media (max-width: 1139px) {
+//     column-gap: 20px;
+//    }
+// }
+
+// .social--margin {
+//   margin: 0;
+// }
+// .social-item {
+//   display: inline-block;
+// }
+
+// .social-item:last-child {
+//   margin-right: 0;
+// }
+
+.skills-list li:before {
+  content: "\2014";
+  margin-right: 7px;
+  @media (max-width: 1139px) {
+    display: none;
+  }
+}
+
+.skills-content {
+  display: flex;
+  padding-top: 49px;
+  margin-top: -80px;
+
+  @media (max-width: 1139px) {
+    padding-top: 60px;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+
+.skills-column {
+  margin-right: 30px;
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}

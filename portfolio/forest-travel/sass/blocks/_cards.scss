@@ -1,0 +1,73 @@
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .cards-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .cards-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-link-wrapper {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .card-link-wrapper:hover {
+    opacity: 0.9;
+  }
+  
+  .card-title-wrapper {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #a6a6a6;
+    color: #fff;
+  
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .card-extreme-color .card-title-wrapper {
+    background: #c1b19b;
+  }
+  .adventures-color .card-title-wrapper {
+    background: #66b0be;
+  }
+  
+  .tracking-color .card-title-wrapper {
+    background: #876f56;
+  }
+  
+  .jungle-color .card-title-wrapper {
+    background: #27695e;
+  }
+  
+  .card-title {
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+  }
+  
+  .cards-row .card-link-wrapper {
+    width: 570px;
+  }
+  
+  .cards-row:last-child .card-link-wrapper {
+    width: 470px;
+  }
+  
+  .cards-row:last-child .cards-column .card-link-wrapper {
+    width: 670px;
+  }
