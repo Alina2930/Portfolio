@@ -85,3 +85,10 @@
     font-size: 18px;
   }
 }
+
+.heading-4:hover,
+.heading-4:active,
+.heading-4:focus {
+  color: #ff543e;
+  transition: 0.3s;
+}

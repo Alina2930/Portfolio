@@ -90,10 +90,12 @@
 
 .header-menu__nav-list--item {
   margin-right: 100px;
+
   @media (max-width: 1139px) {
     margin-right: 50px;
   }
 }
+
 
 .header-menu__nav-list--item:last-child {
   @media (max-width: 899px) {
@@ -113,6 +115,13 @@
   }
 }
 
+.header-menu__nav-link:hover,
+.header-menu__nav-link:active,
+.header-menu__nav-link:focus {
+  color: #ff543e;
+  transition: 0.3s;
+
+}
 .header__logo-desktop {
   display: flex;
   justify-content: space-between;

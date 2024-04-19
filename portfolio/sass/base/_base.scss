@@ -109,7 +109,6 @@ button {
 
   @media (max-width: 899px) {
     width: 768px;
-
   }
   /* mobile*/
   @media (max-width: 767px) {
@@ -118,7 +117,6 @@ button {
 
   /* Tablet*/
 }
-
 
 /* Utility */
 
@@ -152,7 +150,13 @@ button {
   fill: black;
   // margin-left: 26px;
 }
-
+.svg-kat:hover,
+.svg-kat:active,
+.svg-kat:focus {
+  color: #ff543e;
+  transition: 0.3s;
+  opacity: 0.75;
+}
 /* Sticky Footer */
 
 .grad-border {
